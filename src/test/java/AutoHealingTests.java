@@ -88,7 +88,7 @@ public class AutoHealingTests {
 
         localPage.fillInfo(clientInfo);
 
-        localPage.assertions().formSent();
+        localPage.formSent();
     }
 
     @AfterEach
